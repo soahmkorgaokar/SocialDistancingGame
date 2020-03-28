@@ -42,7 +42,10 @@ public class PlayerLineDrawing : MonoBehaviour
             {
                 //Lose
                 //Debug.Log("Lose");
-                GameManager.instance.EndGame(false);
+                if (!GameManager.instance.isEnded)
+                {
+                    GameManager.instance.EndGame(false);
+                }
             }
         }
         else

@@ -46,7 +46,6 @@ public class GameManager : MonoBehaviour
 
         pausePanel.SetActive(false);
         finalPanel.SetActive(false);
-        Time.timeScale = 1;
     }
 
     void Update()
