@@ -67,7 +67,7 @@ public class PlayerLineDrawing : MonoBehaviour
         Collider[] cos = Physics.OverlapSphere(transform.position, showDistance);
         for (int i = 0; i < cos.Length; i++)
         {
-            if (cos[i].tag.Equals("NPC"))
+            if (cos[i].tag.Equals("NPC") && Vector3.Distance(transform.position, cos[i].transform.position) <= showDistance)
             {
                 targets.Add(cos[i].transform);
             }
