@@ -1087,6 +1087,16 @@ PrefabInstance:
       propertyPath: timeSlider
       value: 
       objectReference: {fileID: 2069128349}
+    - target: {fileID: 1067443403954747361, guid: 29c7fc0e448b6d3498a7b5296c3ba015,
+        type: 3}
+      propertyPath: warningMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 14ffd55f1ca27634793af84b52c2d8bd, type: 2}
+    - target: {fileID: 1067443403954747361, guid: 29c7fc0e448b6d3498a7b5296c3ba015,
+        type: 3}
+      propertyPath: showMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: ee2242706d75d6f4989b8dbd70907f2b, type: 2}
     - target: {fileID: 1741098873396552210, guid: 29c7fc0e448b6d3498a7b5296c3ba015,
         type: 3}
       propertyPath: arrow
