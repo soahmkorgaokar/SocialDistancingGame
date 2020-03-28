@@ -1,5 +1,5 @@
 # RapidPrototyping_Jam08
-A Serious Game about Social Distancing
+A Serious Game about Social Distancing (using Unity 2019.2.16f1)
 
 # IMPORTANT DEV STEPS
 
